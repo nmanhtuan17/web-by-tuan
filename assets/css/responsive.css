@@ -1,0 +1,88 @@
+@media (min-width: 741px) {
+    #header .mobile-menu-btn{
+        display: none;
+    }
+}
+/* talet and mobile */
+@media (max-width: 1023px) {
+    .s-full-width{
+        width: 100%;
+    }
+    .contact-form .form-control{
+        padding: 16px;
+        border: 1px solid #ccc;
+        width: 100%;
+    }
+    .footer-internet i{
+        font-size: 48px;
+        margin: 0 8px;
+        display: inline-block;
+    }
+    .w3css{
+        padding: 8px 3px;
+        color: #000;
+    }
+    .contact-info{
+        line-height: 2;
+    }
+    
+}
+/*----------------------------- Talet----------------------*/
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+/*----------------------------- Mobile--------------------- */
+@media (max-width: 740px) {
+    #header{
+        overflow: hidden;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #nav{
+        display: block;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav .subnav{
+        position: initial;
+        background: #000;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 40px;
+    }
+    #content .member-item{
+        width: 100%;
+        padding: 15px 0;
+    } 
+    #content .member-img{
+        width: 60%;
+    }
+    .places-list .s-col-full{
+        width: 100%;
+        padding-top: 16px;
+    }
+    .contact-content .contact-info{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .col-half{
+        width: 100%;
+    }
+    .mt-8{
+        margin-top: 8px;
+    }
+    .footer-internet i {
+        font-size: 32px;
+        margin: 0 8px;
+    }
+    
+} 
