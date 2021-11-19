@@ -419,6 +419,7 @@ html{
     border: 0;
     cursor: pointer;
     float: right;
+    -webkit-appearance: none;
 }
 .contact-form .form-submit:hover{
     background-color: #ccc;
